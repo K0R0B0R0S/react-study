@@ -4,7 +4,7 @@ import Tabela from "./components/Tabela"
 
 
 function App() {
-  const [imc, setImc] = useState(0)
+  const [imc, setImc] = useState()
 
   const handleImcChange = (value) => {
     setImc(value)
