@@ -1,0 +1,22 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.fomularioItem {
+    margin-bottom: 5px;
+}
+
+.formularioField {
+    padding: 5px;
+}
+
+.formularioButton {
+    padding: 5px;
+}
+
+form div > * {
+    text-align: center;
+}
